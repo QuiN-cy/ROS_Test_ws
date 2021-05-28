@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/binpicking_msgs/share/binpicking_msgs/cmake/binpicking_msgsConfig.cmake

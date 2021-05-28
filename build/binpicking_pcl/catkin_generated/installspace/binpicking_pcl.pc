@@ -1,0 +1,8 @@
+prefix=/home/student/test_ws/install
+
+Name: binpicking_pcl
+Description: Description of binpicking_pcl
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs binpicking_msgs

@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/binpicking_pcl/share/binpicking_pcl/cmake/binpicking_pclConfig-version.cmake

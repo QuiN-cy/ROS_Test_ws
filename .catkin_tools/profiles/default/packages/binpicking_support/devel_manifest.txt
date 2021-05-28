@@ -1,0 +1,5 @@
+Binpick/binpicking_support
+/home/student/test_ws/devel/.private/binpicking_support/cmake.lock /home/student/test_ws/devel/./cmake.lock
+/home/student/test_ws/devel/.private/binpicking_support/lib/pkgconfig/binpicking_support.pc /home/student/test_ws/devel/lib/pkgconfig/binpicking_support.pc
+/home/student/test_ws/devel/.private/binpicking_support/share/binpicking_support/cmake/binpicking_supportConfig-version.cmake /home/student/test_ws/devel/share/binpicking_support/cmake/binpicking_supportConfig-version.cmake
+/home/student/test_ws/devel/.private/binpicking_support/share/binpicking_support/cmake/binpicking_supportConfig.cmake /home/student/test_ws/devel/share/binpicking_support/cmake/binpicking_supportConfig.cmake

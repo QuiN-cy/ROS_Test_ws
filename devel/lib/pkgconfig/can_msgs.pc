@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/can_msgs/lib/pkgconfig/can_msgs.pc

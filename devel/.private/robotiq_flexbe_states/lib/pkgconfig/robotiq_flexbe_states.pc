@@ -1,0 +1,8 @@
+prefix=/home/student/test_ws/devel/.private/robotiq_flexbe_states
+
+Name: robotiq_flexbe_states
+Description: Description of robotiq_flexbe_states
+Version: 1.0.0
+Cflags: -I/home/student/test_ws/src/Binpick/binpicking_behaviors/robotiq_flexbe_states/src
+Libs: -L${prefix}/lib -lrobotiq_flexbe_states
+Requires: 

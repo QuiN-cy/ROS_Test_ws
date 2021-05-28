@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/robotiq_ft_sensor/share/roseus/ros/robotiq_ft_sensor/manifest.l

@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/can_msgs/lib/python2.7/dist-packages/can_msgs/msg/_Frame.py

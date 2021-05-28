@@ -1,0 +1,8 @@
+prefix=/home/student/test_ws/install
+
+Name: binpicking_flexbe_states
+Description: Description of binpicking_flexbe_states
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lbinpicking_flexbe_states
+Requires: 

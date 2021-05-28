@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/socketcan_interface/share/socketcan_interface/cmake/socketcan_interfaceConfig-version.cmake

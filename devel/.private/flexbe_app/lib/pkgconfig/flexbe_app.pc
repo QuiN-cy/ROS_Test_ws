@@ -1,0 +1,8 @@
+prefix=/home/student/test_ws/devel/.private/flexbe_app
+
+Name: flexbe_app
+Description: Description of flexbe_app
+Version: 2.2.3
+Cflags: -I/home/student/test_ws/src/ros_packages/flexbe_app/src
+Libs: -L${prefix}/lib -lflexbe_app
+Requires: 

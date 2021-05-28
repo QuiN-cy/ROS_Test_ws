@@ -1,0 +1,8 @@
+prefix=/home/student/test_ws/devel/.private/binpicking_flexbe_behaviors
+
+Name: binpicking_flexbe_behaviors
+Description: Description of binpicking_flexbe_behaviors
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lbinpicking_flexbe_behaviors
+Requires: 

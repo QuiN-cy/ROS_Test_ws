@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/binpicking_msgs/share/gennodejs/ros/binpicking_msgs/srv/CalculateObjectposeFromPointcloud.js

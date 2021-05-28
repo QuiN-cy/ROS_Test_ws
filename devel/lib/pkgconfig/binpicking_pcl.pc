@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/binpicking_pcl/lib/pkgconfig/binpicking_pcl.pc

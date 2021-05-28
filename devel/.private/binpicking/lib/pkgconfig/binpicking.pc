@@ -1,0 +1,8 @@
+prefix=/home/student/test_ws/devel/.private/binpicking
+
+Name: binpicking
+Description: Description of binpicking
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs binpicking_msgs

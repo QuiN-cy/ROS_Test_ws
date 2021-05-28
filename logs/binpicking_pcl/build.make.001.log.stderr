@@ -1,0 +1,7 @@
+[01m[K/home/student/test_ws/src/Binpick/binpicking_pcl/src/calculate_objectpose_from_pointcloud.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kconditional_removal.h: Bestand of map bestaat niet
+ #include [01;31m[K<conditional_removal.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/calculate_objectpose_from_pointcloud.dir/src/calculate_objectpose_from_pointcloud.cpp.o] Error 1
+make[1]: *** [CMakeFiles/calculate_objectpose_from_pointcloud.dir/all] Error 2
+make: *** [all] Error 2

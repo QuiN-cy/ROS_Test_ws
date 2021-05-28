@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/binpicking/share/binpicking/cmake/binpickingConfig-version.cmake

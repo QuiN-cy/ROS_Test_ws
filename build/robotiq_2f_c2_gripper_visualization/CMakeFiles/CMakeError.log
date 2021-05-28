@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/student/test_ws/build/robotiq_2f_c2_gripper_visualization/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea35c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea35c.dir/build.make CMakeFiles/cmTC_ea35c.dir/build
+make[1]: Map '/home/student/test_ws/build/robotiq_2f_c2_gripper_visualization/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building C object CMakeFiles/cmTC_ea35c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ea35c.dir/CheckSymbolExists.c.o   -c /home/student/test_ws/build/robotiq_2f_c2_gripper_visualization/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ea35c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea35c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ea35c.dir/CheckSymbolExists.c.o  -o cmTC_ea35c 
+CMakeFiles/cmTC_ea35c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ea35c.dir/build.make:97: recipe for target 'cmTC_ea35c' failed
+make[1]: *** [cmTC_ea35c] Error 1
+make[1]: Map '/home/student/test_ws/build/robotiq_2f_c2_gripper_visualization/CMakeFiles/CMakeTmp' wordt verlaten
+Makefile:126: recipe for target 'cmTC_ea35c/fast' failed
+make: *** [cmTC_ea35c/fast] Error 2
+
+File /home/student/test_ws/build/robotiq_2f_c2_gripper_visualization/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/student/test_ws/build/robotiq_2f_c2_gripper_visualization/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d07f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d07f.dir/build.make CMakeFiles/cmTC_5d07f.dir/build
+make[1]: Map '/home/student/test_ws/build/robotiq_2f_c2_gripper_visualization/CMakeFiles/CMakeTmp' wordt binnengegaan
+Building C object CMakeFiles/cmTC_5d07f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5d07f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5d07f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d07f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5d07f.dir/CheckFunctionExists.c.o  -o cmTC_5d07f -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5d07f.dir/build.make:97: recipe for target 'cmTC_5d07f' failed
+make[1]: *** [cmTC_5d07f] Error 1
+make[1]: Map '/home/student/test_ws/build/robotiq_2f_c2_gripper_visualization/CMakeFiles/CMakeTmp' wordt verlaten
+Makefile:126: recipe for target 'cmTC_5d07f/fast' failed
+make: *** [cmTC_5d07f/fast] Error 2
+
+
