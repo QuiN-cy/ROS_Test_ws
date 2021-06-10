@@ -1,0 +1,8 @@
+ros_packages/ros_canopen/canopen_master
+/home/student/test_ws/devel/.private/canopen_master/cmake.lock /home/student/test_ws/devel/./cmake.lock
+/home/student/test_ws/devel/.private/canopen_master/lib/libcanopen_master_plugin.so /home/student/test_ws/devel/lib/libcanopen_master_plugin.so
+/home/student/test_ws/devel/.private/canopen_master/lib/libcanopen_master.so /home/student/test_ws/devel/lib/libcanopen_master.so
+/home/student/test_ws/devel/.private/canopen_master/lib/pkgconfig/canopen_master.pc /home/student/test_ws/devel/lib/pkgconfig/canopen_master.pc
+/home/student/test_ws/devel/.private/canopen_master/lib/canopen_master/canopen_bcm_sync /home/student/test_ws/devel/lib/canopen_master/canopen_bcm_sync
+/home/student/test_ws/devel/.private/canopen_master/share/canopen_master/cmake/canopen_masterConfig.cmake /home/student/test_ws/devel/share/canopen_master/cmake/canopen_masterConfig.cmake
+/home/student/test_ws/devel/.private/canopen_master/share/canopen_master/cmake/canopen_masterConfig-version.cmake /home/student/test_ws/devel/share/canopen_master/cmake/canopen_masterConfig-version.cmake

@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/student/test_ws/devel/.private/ur_controllers/lib;/home/student/test_ws/devel/.private/joint_trajectory_controller/lib;/opt/ros/melodic/lib")

@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake

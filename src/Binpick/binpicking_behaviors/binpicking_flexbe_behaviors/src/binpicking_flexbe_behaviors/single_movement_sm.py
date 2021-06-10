@@ -9,7 +9,6 @@
 
 from flexbe_core import Behavior, Autonomy, OperatableStateMachine, ConcurrencyContainer, PriorityContainer, Logger
 from flexbe_manipulation_states.srdf_state_to_moveit import SrdfStateToMoveit
-from flexbe_states.operator_decision_state import OperatorDecisionState
 # Additional imports can be added inside the following tags
 # [MANUAL_IMPORT]
 
@@ -73,15 +72,9 @@ class singlemovementSM(Behavior):
 			# x:292 y:60
 			OperatableStateMachine.add('GoHomeStart',
 										SrdfStateToMoveit(config_name='PhotoPosBand', move_group=pick_group, action_topic='/move_group', robot_name=""),
-										transitions={'reached': 'sf', 'planning_failed': 'failed', 'control_failed': 'failed', 'param_error': 'failed'},
+										transitions={'reached': 'finished', 'planning_failed': 'failed', 'control_failed': 'failed', 'param_error': 'failed'},
 										autonomy={'reached': Autonomy.Off, 'planning_failed': Autonomy.Off, 'control_failed': Autonomy.Off, 'param_error': Autonomy.Off},
 										remapping={'config_name': 'config_name', 'move_group': 'move_group', 'robot_name': 'robot_name', 'action_topic': 'action_topic', 'joint_values': 'joint_values', 'joint_names': 'joint_names'})
-
-			# x:878 y:208
-			OperatableStateMachine.add('sf',
-										OperatorDecisionState(outcomes=["1","2"], hint=None, suggestion=None),
-										transitions={'1': 'finished', '2': 'failed'},
-										autonomy={'1': Autonomy.Off, '2': Autonomy.Off})
 
 
 		return _state_machine

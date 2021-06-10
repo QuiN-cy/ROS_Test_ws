@@ -1,0 +1,5 @@
+Binpick/binpicking_moveit_config
+/home/student/test_ws/devel/.private/binpicking_moveit_config/cmake.lock /home/student/test_ws/devel/./cmake.lock
+/home/student/test_ws/devel/.private/binpicking_moveit_config/lib/pkgconfig/binpicking_moveit_config.pc /home/student/test_ws/devel/lib/pkgconfig/binpicking_moveit_config.pc
+/home/student/test_ws/devel/.private/binpicking_moveit_config/share/binpicking_moveit_config/cmake/binpicking_moveit_configConfig.cmake /home/student/test_ws/devel/share/binpicking_moveit_config/cmake/binpicking_moveit_configConfig.cmake
+/home/student/test_ws/devel/.private/binpicking_moveit_config/share/binpicking_moveit_config/cmake/binpicking_moveit_configConfig-version.cmake /home/student/test_ws/devel/share/binpicking_moveit_config/cmake/binpicking_moveit_configConfig-version.cmake

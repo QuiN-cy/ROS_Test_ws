@@ -1,0 +1,6 @@
+ros_packages/ros_controllers/position_controllers
+/home/student/test_ws/devel/.private/position_controllers/cmake.lock /home/student/test_ws/devel/./cmake.lock
+/home/student/test_ws/devel/.private/position_controllers/lib/libposition_controllers.so /home/student/test_ws/devel/lib/libposition_controllers.so
+/home/student/test_ws/devel/.private/position_controllers/lib/pkgconfig/position_controllers.pc /home/student/test_ws/devel/lib/pkgconfig/position_controllers.pc
+/home/student/test_ws/devel/.private/position_controllers/share/position_controllers/cmake/position_controllersConfig.cmake /home/student/test_ws/devel/share/position_controllers/cmake/position_controllersConfig.cmake
+/home/student/test_ws/devel/.private/position_controllers/share/position_controllers/cmake/position_controllersConfig-version.cmake /home/student/test_ws/devel/share/position_controllers/cmake/position_controllersConfig-version.cmake

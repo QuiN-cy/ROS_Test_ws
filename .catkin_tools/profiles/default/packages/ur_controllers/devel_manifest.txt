@@ -1,0 +1,6 @@
+ros_packages/universal_robots/Universal_Robots_ROS_Driver/ur_controllers
+/home/student/test_ws/devel/.private/ur_controllers/cmake.lock /home/student/test_ws/devel/./cmake.lock
+/home/student/test_ws/devel/.private/ur_controllers/lib/libur_controllers.so /home/student/test_ws/devel/lib/libur_controllers.so
+/home/student/test_ws/devel/.private/ur_controllers/lib/pkgconfig/ur_controllers.pc /home/student/test_ws/devel/lib/pkgconfig/ur_controllers.pc
+/home/student/test_ws/devel/.private/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake /home/student/test_ws/devel/share/ur_controllers/cmake/ur_controllersConfig.cmake
+/home/student/test_ws/devel/.private/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake /home/student/test_ws/devel/share/ur_controllers/cmake/ur_controllersConfig-version.cmake

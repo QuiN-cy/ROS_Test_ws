@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake

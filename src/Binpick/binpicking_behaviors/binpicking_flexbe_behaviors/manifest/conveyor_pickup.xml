@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Conveyor_pickup">
+
+	<executable package_path="binpicking_flexbe_behaviors.conveyor_pickup_sm" class="Conveyor_pickupSM" />
+	<tagstring></tagstring>
+	<author>Youp de haas, Quincy de Jong, Sam Schrauwen, Thom Snikkers, Lein van Sluijs</author>
+	<date>21-05-2021</date>
+	<description>
+		Projectgroep 1
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>

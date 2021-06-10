@@ -1,0 +1,8 @@
+prefix=/home/student/test_ws/devel/.private/binpicking_pcl_devel
+
+Name: binpicking_pcl_devel
+Description: Description of binpicking_pcl_devel
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs binpicking_msgs

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="AGV Place">
+
+	<executable package_path="binpicking_flexbe_behaviors.agv_place_sm" class="AGVPlaceSM" />
+	<tagstring></tagstring>
+	<author>q / y</author>
+	<date>Thu Jun 10 2021</date>
+	<description>
+		plaatst object op agv
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>

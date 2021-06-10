@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/canopen_chain_node/share/canopen_chain_node/cmake/canopen_chain_node-msg-paths.cmake

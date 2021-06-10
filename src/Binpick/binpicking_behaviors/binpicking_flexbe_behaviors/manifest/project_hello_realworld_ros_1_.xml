@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Project Hello Realworld ROS 1 ">
+
+	<executable package_path="binpicking_flexbe_behaviors.project_hello_realworld_ros_1__sm" class="ProjectHelloRealworldROS1SM" />
+	<tagstring></tagstring>
+	<author>q / y</author>
+	<date>Fri Jun 04 2021</date>
+	<description>
+		main project
+	</description>
+
+
+	<!-- Contained Behaviors -->
+	<contains name="Conveyor_pickup" />
+	<contains name="AGV Place" />
+
+	<!-- Available Parameters -->
+
+</behavior>

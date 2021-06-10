@@ -8,7 +8,6 @@
 #include <pcl/segmentation/region_growing.h>
 #include <pcl/common/common.h>
 //#include <pcl/ModelCoefficients.h>
-//#include <conditional_removal.h>
 
 #include <ros/ros.h>
 #include <geometry_msgs/Vector3.h>
@@ -16,9 +15,9 @@
 #include "calculate_objectpose_from_pointcloud.h"
 
 
-geometry_msgs::Vector3 calculate_objectpose_from_pointcloud(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, pcl::PointCloud<pcl::PointXYZRGB>::Ptr &colored_cloud) {
+geometry_msgs::Vector3 calculate_objectpose_from_pointcloud(pcl::PointCloud<pcl::PointXYZ>::Ptr cloud, pcl::PointCloud<pcl::PointXYZRGB>::Ptr &colored_cloud, pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_filtered) {
 
-//	pcl::PointCloud <pcl::PointXYZRGB>::Ptr colored_cloud = reg.getColoredCloud();
+//	pcl::Point<pcl::PointXYZRGB>::Ptr colored_cloud = reg.getColoredCloud();
 #if 0
 	pcl::visualization::CloudViewer viewer("Cluster viewer");
 	viewer.showCloud(cloud);
@@ -27,14 +26,38 @@ geometry_msgs::Vector3 calculate_objectpose_from_pointcloud(pcl::PointCloud<pcl:
 //	}
 #endif
 
-	pcl::search::Search<pcl::PointXYZ>::Ptr tree(new pcl::search::KdTree<pcl::PointXYZ>);
-	pcl::PointCloud <pcl::Normal>::Ptr normals(new pcl::PointCloud <pcl::Normal>);
-	pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal> normal_estimator;
-	normal_estimator.setSearchMethod(tree);
-	normal_estimator.setInputCloud(cloud);
-	normal_estimator.setKSearch(50);
-	normal_estimator.compute(*normals);
 
+
+  // Adde by Gerard, dummy filter */
+  // Create the filtering object
+  pcl::PassThrough<pcl::PointXYZ> pass;
+  pass.setInputCloud (cloud);
+  pass.setFilterFieldName ("x");
+  pass.setFilterLimits (-0.5, 0.1);
+  //pass.setFilterLimitsNegative (true);
+  /* The actual filtering */
+  pass.filter(*cloud_filtered);
+
+	pcl::PassThrough<pcl::PointXYZ> pass_y;
+  pass_y.setInputCloud (cloud_filtered);
+  pass_y.setFilterFieldName ("y");
+  pass_y.setFilterLimits (-0.08, 0.1);
+  //pass.setFilterLimitsNegative (true);
+  /* The actual filtering */
+  pass_y.filter(*cloud_filtered);
+
+
+
+  // End add */
+
+
+		pcl::search::Search<pcl::PointXYZ>::Ptr tree(new pcl::search::KdTree<pcl::PointXYZ>);
+		pcl::PointCloud <pcl::Normal>::Ptr normals(new pcl::PointCloud <pcl::Normal>);
+		pcl::NormalEstimation<pcl::PointXYZ, pcl::Normal> normal_estimator;
+		normal_estimator.setSearchMethod(tree);
+		normal_estimator.setInputCloud(cloud_filtered);
+		normal_estimator.setKSearch(50);
+		normal_estimator.compute(*normals);
 
 #if 0
 	// Niet nodig
@@ -46,14 +69,12 @@ geometry_msgs::Vector3 calculate_objectpose_from_pointcloud(pcl::PointCloud<pcl:
 	pass.filter(*indices);
 #endif
 
-
-
 	pcl::RegionGrowing<pcl::PointXYZ, pcl::Normal> reg;
 	reg.setMinClusterSize(50);
 	reg.setMaxClusterSize(1000000);
 	reg.setSearchMethod(tree);
 	reg.setNumberOfNeighbours(30);
-	reg.setInputCloud(cloud);
+	reg.setInputCloud(cloud_filtered);
 	//reg.setIndices (indices); // No indices
 	reg.setInputNormals(normals);
 	reg.setSmoothnessThreshold(3.0 / 180.0 * M_PI);
@@ -70,34 +91,13 @@ geometry_msgs::Vector3 calculate_objectpose_from_pointcloud(pcl::PointCloud<pcl:
 	int cnt = 0;
 	pcl::PointXYZ CenterPoint;
 	pcl::PointXYZ CenterPointMin;
-
-	//filter
-	//pcl::conditional_removal filter = new conditional_removal(cloud_cluster.width<800);
-
-
-	//build de condition
-	//pcl::ConditionAnd<PointT>::Ptr range_cond (new pcl::ConditionAnd<PointT> ());
-	//range_cond->addComparison (pcl::FieldComparison<PointT>::Ptr (new pcl::FieldComparison<PointT>("z", pcl::ComparisonOps::LT, 2.0)));
-	//range_cond->addComparison (pcl::FieldComparison<PointT>::Ptr (new pcl::FieldComparison<PointT>("z", pcl::ComparisonOps::GT, 0.0)));
-	//Build the filter
-	//pcl::ConditionalRemoval<PointT> range_filt; range_filt.setCondition (range_cond); range_filt.setKeepOrganized (false);
-
-
-
-
-
-
-
-
-
-
 	// Find neraest object
 	for (std::vector<pcl::PointIndices>::const_iterator it = clusters.begin(); it != clusters.end(); ++it)
 	{
 		/* Create pointcloud from cluster */
 		cloud_cluster->points.clear();
 		for (std::vector<int>::const_iterator pit = it->indices.begin(); pit != it->indices.end(); ++pit)
-			cloud_cluster->points.push_back(cloud->points[*pit]);
+			cloud_cluster->points.push_back(cloud_filtered->points[*pit]);
 		cloud_cluster->width = cloud_cluster->points.size();
 		cloud_cluster->height = 1;
 		cloud_cluster->is_dense = true;

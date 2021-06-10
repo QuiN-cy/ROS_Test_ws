@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/canopen_chain_node/share/common-lisp/ros/canopen_chain_node/srv/canopen_chain_node-srv.asd

@@ -1,0 +1,8 @@
+prefix=/home/student/test_ws/devel/.private/binpicking_moveit_config
+
+Name: binpicking_moveit_config
+Description: Description of binpicking_moveit_config
+Version: 1.2.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

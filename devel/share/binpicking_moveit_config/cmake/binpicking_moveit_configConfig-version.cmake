@@ -1,0 +1,1 @@
+/home/student/test_ws/devel/.private/binpicking_moveit_config/share/binpicking_moveit_config/cmake/binpicking_moveit_configConfig-version.cmake

@@ -1,0 +1,5 @@
+Symlinking /home/student/test_ws/devel/lib/libcanopen_402.so
+Symlinking /home/student/test_ws/devel/lib/libcanopen_402_plugin.so
+Symlinking /home/student/test_ws/devel/lib/pkgconfig/canopen_402.pc
+Symlinking /home/student/test_ws/devel/share/canopen_402/cmake/canopen_402Config.cmake
+Symlinking /home/student/test_ws/devel/share/canopen_402/cmake/canopen_402Config-version.cmake

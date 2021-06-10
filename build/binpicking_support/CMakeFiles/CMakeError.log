@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/student/test_ws/build/binpicking_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dfcac/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dfcac.dir/build.make CMakeFiles/cmTC_dfcac.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_30c9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30c9e.dir/build.make CMakeFiles/cmTC_30c9e.dir/build
 make[1]: Map '/home/student/test_ws/build/binpicking_support/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building C object CMakeFiles/cmTC_dfcac.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_dfcac.dir/CheckSymbolExists.c.o   -c /home/student/test_ws/build/binpicking_support/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_dfcac
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfcac.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dfcac.dir/CheckSymbolExists.c.o  -o cmTC_dfcac 
-CMakeFiles/cmTC_dfcac.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_30c9e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_30c9e.dir/CheckSymbolExists.c.o   -c /home/student/test_ws/build/binpicking_support/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_30c9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30c9e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_30c9e.dir/CheckSymbolExists.c.o  -o cmTC_30c9e 
+CMakeFiles/cmTC_30c9e.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_dfcac.dir/build.make:97: recipe for target 'cmTC_dfcac' failed
-make[1]: *** [cmTC_dfcac] Error 1
+CMakeFiles/cmTC_30c9e.dir/build.make:97: recipe for target 'cmTC_30c9e' failed
+make[1]: *** [cmTC_30c9e] Error 1
 make[1]: Map '/home/student/test_ws/build/binpicking_support/CMakeFiles/CMakeTmp' wordt verlaten
-Makefile:126: recipe for target 'cmTC_dfcac/fast' failed
-make: *** [cmTC_dfcac/fast] Error 2
+Makefile:126: recipe for target 'cmTC_30c9e/fast' failed
+make: *** [cmTC_30c9e/fast] Error 2
 
 File /home/student/test_ws/build/binpicking_support/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/student/test_ws/build/binpicking_support/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_22abe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_22abe.dir/build.make CMakeFiles/cmTC_22abe.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_78c63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78c63.dir/build.make CMakeFiles/cmTC_78c63.dir/build
 make[1]: Map '/home/student/test_ws/build/binpicking_support/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building C object CMakeFiles/cmTC_22abe.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_22abe.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_22abe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22abe.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_22abe.dir/CheckFunctionExists.c.o  -o cmTC_22abe -lpthreads 
+Building C object CMakeFiles/cmTC_78c63.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_78c63.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_78c63
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78c63.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_78c63.dir/CheckFunctionExists.c.o  -o cmTC_78c63 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_22abe.dir/build.make:97: recipe for target 'cmTC_22abe' failed
-make[1]: *** [cmTC_22abe] Error 1
+CMakeFiles/cmTC_78c63.dir/build.make:97: recipe for target 'cmTC_78c63' failed
+make[1]: *** [cmTC_78c63] Error 1
 make[1]: Map '/home/student/test_ws/build/binpicking_support/CMakeFiles/CMakeTmp' wordt verlaten
-Makefile:126: recipe for target 'cmTC_22abe/fast' failed
-make: *** [cmTC_22abe/fast] Error 2
+Makefile:126: recipe for target 'cmTC_78c63/fast' failed
+make: *** [cmTC_78c63/fast] Error 2
 
 
