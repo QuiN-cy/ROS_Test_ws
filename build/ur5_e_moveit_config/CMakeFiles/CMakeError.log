@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/student/test_ws/build/ur5_e_moveit_config/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a9fce/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a9fce.dir/build.make CMakeFiles/cmTC_a9fce.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2ae73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ae73.dir/build.make CMakeFiles/cmTC_2ae73.dir/build
 make[1]: Map '/home/student/test_ws/build/ur5_e_moveit_config/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building C object CMakeFiles/cmTC_a9fce.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_a9fce.dir/CheckSymbolExists.c.o   -c /home/student/test_ws/build/ur5_e_moveit_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_a9fce
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9fce.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a9fce.dir/CheckSymbolExists.c.o  -o cmTC_a9fce 
-CMakeFiles/cmTC_a9fce.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_2ae73.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2ae73.dir/CheckSymbolExists.c.o   -c /home/student/test_ws/build/ur5_e_moveit_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2ae73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ae73.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2ae73.dir/CheckSymbolExists.c.o  -o cmTC_2ae73 
+CMakeFiles/cmTC_2ae73.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_a9fce.dir/build.make:97: recipe for target 'cmTC_a9fce' failed
-make[1]: *** [cmTC_a9fce] Error 1
+CMakeFiles/cmTC_2ae73.dir/build.make:97: recipe for target 'cmTC_2ae73' failed
+make[1]: *** [cmTC_2ae73] Error 1
 make[1]: Map '/home/student/test_ws/build/ur5_e_moveit_config/CMakeFiles/CMakeTmp' wordt verlaten
-Makefile:126: recipe for target 'cmTC_a9fce/fast' failed
-make: *** [cmTC_a9fce/fast] Error 2
+Makefile:126: recipe for target 'cmTC_2ae73/fast' failed
+make: *** [cmTC_2ae73/fast] Error 2
 
 File /home/student/test_ws/build/ur5_e_moveit_config/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/student/test_ws/build/ur5_e_moveit_config/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_53edc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_53edc.dir/build.make CMakeFiles/cmTC_53edc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5e8d8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e8d8.dir/build.make CMakeFiles/cmTC_5e8d8.dir/build
 make[1]: Map '/home/student/test_ws/build/ur5_e_moveit_config/CMakeFiles/CMakeTmp' wordt binnengegaan
-Building C object CMakeFiles/cmTC_53edc.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_53edc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_53edc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53edc.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_53edc.dir/CheckFunctionExists.c.o  -o cmTC_53edc -lpthreads 
+Building C object CMakeFiles/cmTC_5e8d8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5e8d8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5e8d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e8d8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5e8d8.dir/CheckFunctionExists.c.o  -o cmTC_5e8d8 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_53edc.dir/build.make:97: recipe for target 'cmTC_53edc' failed
-make[1]: *** [cmTC_53edc] Error 1
+CMakeFiles/cmTC_5e8d8.dir/build.make:97: recipe for target 'cmTC_5e8d8' failed
+make[1]: *** [cmTC_5e8d8] Error 1
 make[1]: Map '/home/student/test_ws/build/ur5_e_moveit_config/CMakeFiles/CMakeTmp' wordt verlaten
-Makefile:126: recipe for target 'cmTC_53edc/fast' failed
-make: *** [cmTC_53edc/fast] Error 2
+Makefile:126: recipe for target 'cmTC_5e8d8/fast' failed
+make: *** [cmTC_5e8d8/fast] Error 2
 
 

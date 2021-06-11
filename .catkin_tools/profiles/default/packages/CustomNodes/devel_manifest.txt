@@ -1,0 +1,5 @@
+CustomNodes
+/home/student/test_ws/devel/.private/CustomNodes/cmake.lock /home/student/test_ws/devel/./cmake.lock
+/home/student/test_ws/devel/.private/CustomNodes/lib/pkgconfig/CustomNodes.pc /home/student/test_ws/devel/lib/pkgconfig/CustomNodes.pc
+/home/student/test_ws/devel/.private/CustomNodes/share/CustomNodes/cmake/CustomNodesConfig-version.cmake /home/student/test_ws/devel/share/CustomNodes/cmake/CustomNodesConfig-version.cmake
+/home/student/test_ws/devel/.private/CustomNodes/share/CustomNodes/cmake/CustomNodesConfig.cmake /home/student/test_ws/devel/share/CustomNodes/cmake/CustomNodesConfig.cmake

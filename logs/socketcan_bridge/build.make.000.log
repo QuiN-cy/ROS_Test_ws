@@ -1,0 +1,62 @@
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target can_msgs_generate_messages_cpp[0m
+[  0%] Built target can_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target can_msgs_generate_messages_py[0m
+[  0%] Built target can_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target can_msgs_generate_messages_nodejs[0m
+[  0%] Built target can_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target can_msgs_generate_messages_eus[0m
+[  0%] Built target can_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target can_msgs_generate_messages_lisp[0m
+[  0%] Built target can_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target socketcan_to_topic[0m
+[  8%] [32mBuilding CXX object CMakeFiles/socketcan_to_topic.dir/src/rosconsole_bridge.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/socketcan_to_topic.dir/src/socketcan_to_topic.cpp.o[0m
+[35m[1mScanning dependencies of target topic_to_socketcan[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/topic_to_socketcan.dir/src/rosconsole_bridge.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/topic_to_socketcan.dir/src/topic_to_socketcan.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library /home/student/test_ws/devel/.private/socketcan_bridge/lib/libsocketcan_to_topic.so[0m
+[ 41%] Built target socketcan_to_topic
+[35m[1mScanning dependencies of target socketcan_to_topic_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/socketcan_to_topic_node.dir/src/socketcan_to_topic_node.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library /home/student/test_ws/devel/.private/socketcan_bridge/lib/libtopic_to_socketcan.so[0m
+[ 58%] Built target topic_to_socketcan
+[ 66%] [32m[1mLinking CXX executable /home/student/test_ws/devel/.private/socketcan_bridge/lib/socketcan_bridge/socketcan_to_topic_node[0m
+[35m[1mScanning dependencies of target topic_to_socketcan_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/topic_to_socketcan_node.dir/src/topic_to_socketcan_node.cpp.o[0m
+[35m[1mScanning dependencies of target socketcan_bridge_node[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/socketcan_bridge_node.dir/src/socketcan_bridge_node.cpp.o[0m
+[ 83%] Built target socketcan_to_topic_node
+[100%] [32m[1mLinking CXX executable /home/student/test_ws/devel/.private/socketcan_bridge/lib/socketcan_bridge/socketcan_bridge_node[0m
+[100%] [32m[1mLinking CXX executable /home/student/test_ws/devel/.private/socketcan_bridge/lib/socketcan_bridge/topic_to_socketcan_node[0m
+[100%] Built target socketcan_bridge_node
+[100%] Built target topic_to_socketcan_node

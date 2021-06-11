@@ -1,0 +1,80 @@
+[35m[1mScanning dependencies of target _binpicking_msgs_generate_messages_check_deps_CapturePointcloud[0m
+[  0%] Built target _binpicking_msgs_generate_messages_check_deps_CapturePointcloud
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target moveit_msgs_generate_messages_eus[0m
+[  0%] Built target moveit_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _binpicking_msgs_generate_messages_check_deps_CalculateObjectposeFromPointcloud[0m
+[  0%] Built target _binpicking_msgs_generate_messages_check_deps_CalculateObjectposeFromPointcloud
+[35m[1mScanning dependencies of target moveit_msgs_generate_messages_lisp[0m
+[  0%] Built target moveit_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target moveit_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target moveit_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target moveit_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target moveit_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target moveit_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target moveit_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target binpicking_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target binpicking_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  8%] [34m[1mGenerating EusLisp code from binpicking_msgs/CapturePointcloud.srv[0m
+[ 16%] [34m[1mGenerating Lisp code from binpicking_msgs/CapturePointcloud.srv[0m
+[ 25%] [34m[1mGenerating Lisp code from binpicking_msgs/CalculateObjectposeFromPointcloud.srv[0m
+[ 33%] [34m[1mGenerating EusLisp code from binpicking_msgs/CalculateObjectposeFromPointcloud.srv[0m
+[ 41%] [34m[1mGenerating EusLisp manifest code for binpicking_msgs[0m
+[ 41%] Built target binpicking_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target binpicking_msgs_generate_messages_py[0m
+[ 50%] [34m[1mGenerating Python code from SRV binpicking_msgs/CapturePointcloud[0m
+WARNING: Package name "CustomNodes" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[ 58%] [34m[1mGenerating Python code from SRV binpicking_msgs/CalculateObjectposeFromPointcloud[0m
+[35m[1mScanning dependencies of target binpicking_msgs_generate_messages_nodejs[0m
+[ 66%] [34m[1mGenerating Javascript code from binpicking_msgs/CapturePointcloud.srv[0m
+[ 75%] [34m[1mGenerating Python srv __init__.py for binpicking_msgs[0m
+[ 83%] [34m[1mGenerating Javascript code from binpicking_msgs/CalculateObjectposeFromPointcloud.srv[0m
+[ 83%] Built target binpicking_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target binpicking_msgs_generate_messages_cpp[0m
+[ 91%] [34m[1mGenerating C++ code from binpicking_msgs/CapturePointcloud.srv[0m
+[ 91%] Built target binpicking_msgs_generate_messages_py
+[100%] [34m[1mGenerating C++ code from binpicking_msgs/CalculateObjectposeFromPointcloud.srv[0m
+[100%] Built target binpicking_msgs_generate_messages_cpp
+WARNING: Package name "CustomNodes" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[100%] Built target binpicking_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target binpicking_msgs_generate_messages[0m
+[100%] Built target binpicking_msgs_generate_messages

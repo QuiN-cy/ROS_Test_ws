@@ -1,0 +1,4 @@
+Symlinking /home/student/test_ws/devel/lib/pkgconfig/flexbe_manipulation_states.pc
+Symlinking /home/student/test_ws/devel/lib/python2.7/dist-packages/flexbe_manipulation_states/__init__.py
+Symlinking /home/student/test_ws/devel/share/flexbe_manipulation_states/cmake/flexbe_manipulation_statesConfig-version.cmake
+Symlinking /home/student/test_ws/devel/share/flexbe_manipulation_states/cmake/flexbe_manipulation_statesConfig.cmake

@@ -1,0 +1,4 @@
+Symlinking /home/student/test_ws/devel/lib/pkgconfig/flexbe_utility_states.pc
+Symlinking /home/student/test_ws/devel/lib/python2.7/dist-packages/flexbe_utility_states/__init__.py
+Symlinking /home/student/test_ws/devel/share/flexbe_utility_states/cmake/flexbe_utility_statesConfig.cmake
+Symlinking /home/student/test_ws/devel/share/flexbe_utility_states/cmake/flexbe_utility_statesConfig-version.cmake

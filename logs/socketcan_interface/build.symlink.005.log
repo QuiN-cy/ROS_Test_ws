@@ -1,7 +1,0 @@
-Linked: (/home/student/test_ws/devel/.private/socketcan_interface/lib/libsocketcan_interface_plugin.so, /home/student/test_ws/devel/lib/libsocketcan_interface_plugin.so)
-Linked: (/home/student/test_ws/devel/.private/socketcan_interface/lib/libsocketcan_interface_string.so, /home/student/test_ws/devel/lib/libsocketcan_interface_string.so)
-Linked: (/home/student/test_ws/devel/.private/socketcan_interface/lib/socketcan_interface/socketcan_dump, /home/student/test_ws/devel/lib/socketcan_interface/socketcan_dump)
-Linked: (/home/student/test_ws/devel/.private/socketcan_interface/lib/socketcan_interface/socketcan_bcm, /home/student/test_ws/devel/lib/socketcan_interface/socketcan_bcm)
-Linked: (/home/student/test_ws/devel/.private/socketcan_interface/lib/pkgconfig/socketcan_interface.pc, /home/student/test_ws/devel/lib/pkgconfig/socketcan_interface.pc)
-Linked: (/home/student/test_ws/devel/.private/socketcan_interface/share/socketcan_interface/cmake/socketcan_interfaceConfig-version.cmake, /home/student/test_ws/devel/share/socketcan_interface/cmake/socketcan_interfaceConfig-version.cmake)
-Linked: (/home/student/test_ws/devel/.private/socketcan_interface/share/socketcan_interface/cmake/socketcan_interfaceConfig.cmake, /home/student/test_ws/devel/share/socketcan_interface/cmake/socketcan_interfaceConfig.cmake)

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="ConveyorBelt">
+
+	<executable package_path="binpicking_flexbe_behaviors.conveyorbelt_sm" class="ConveyorBeltSM" />
+	<tagstring></tagstring>
+	<author>Quincy de Jong, Youp de Haas</author>
+	<date>Fri Jun 11 2021</date>
+	<description>
+		Starting and stopping of the conveyorbelt
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>

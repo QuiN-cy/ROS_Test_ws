@@ -1,4 +1,0 @@
-Linked: (/home/student/test_ws/devel/.private/robotiq_ethercat/lib/librobotiq_ethercat.so, /home/student/test_ws/devel/lib/librobotiq_ethercat.so)
-Linked: (/home/student/test_ws/devel/.private/robotiq_ethercat/lib/pkgconfig/robotiq_ethercat.pc, /home/student/test_ws/devel/lib/pkgconfig/robotiq_ethercat.pc)
-Linked: (/home/student/test_ws/devel/.private/robotiq_ethercat/share/robotiq_ethercat/cmake/robotiq_ethercatConfig.cmake, /home/student/test_ws/devel/share/robotiq_ethercat/cmake/robotiq_ethercatConfig.cmake)
-Linked: (/home/student/test_ws/devel/.private/robotiq_ethercat/share/robotiq_ethercat/cmake/robotiq_ethercatConfig-version.cmake, /home/student/test_ws/devel/share/robotiq_ethercat/cmake/robotiq_ethercatConfig-version.cmake)

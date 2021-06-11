@@ -12,8 +12,9 @@
 
 
 	<!-- Contained Behaviors -->
-	<contains name="Conveyor_pickup" />
+	<contains name="ConveyorBelt" />
 	<contains name="AGV Place" />
+	<contains name="Conveyor_pickup" />
 
 	<!-- Available Parameters -->
 

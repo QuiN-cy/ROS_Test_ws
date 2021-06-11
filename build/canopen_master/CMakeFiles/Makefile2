@@ -494,8 +494,8 @@ clean: CMakeFiles/canopen_bcm_sync.dir/clean
 # Target rules for target CMakeFiles/canopen_master-test_parser.dir
 
 # All Build rule for target.
-CMakeFiles/canopen_master-test_parser.dir/all: CMakeFiles/canopen_master.dir/all
 CMakeFiles/canopen_master-test_parser.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
+CMakeFiles/canopen_master-test_parser.dir/all: CMakeFiles/canopen_master.dir/all
 	$(MAKE) -f CMakeFiles/canopen_master-test_parser.dir/build.make CMakeFiles/canopen_master-test_parser.dir/depend
 	$(MAKE) -f CMakeFiles/canopen_master-test_parser.dir/build.make CMakeFiles/canopen_master-test_parser.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/test_ws/build/canopen_master/CMakeFiles --progress-num=9,10 "Built target canopen_master-test_parser"
@@ -592,8 +592,8 @@ clean: CMakeFiles/run_tests_canopen_master.dir/clean
 
 # All Build rule for target.
 CMakeFiles/_run_tests_canopen_master_gtest_canopen_master-test_parser.dir/all: CMakeFiles/canopen_master-test_parser.dir/all
-CMakeFiles/_run_tests_canopen_master_gtest_canopen_master-test_parser.dir/all: CMakeFiles/tests.dir/all
 CMakeFiles/_run_tests_canopen_master_gtest_canopen_master-test_parser.dir/all: CMakeFiles/clean_test_results_canopen_master.dir/all
+CMakeFiles/_run_tests_canopen_master_gtest_canopen_master-test_parser.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_canopen_master_gtest_canopen_master-test_parser.dir/build.make CMakeFiles/_run_tests_canopen_master_gtest_canopen_master-test_parser.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_canopen_master_gtest_canopen_master-test_parser.dir/build.make CMakeFiles/_run_tests_canopen_master_gtest_canopen_master-test_parser.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/test_ws/build/canopen_master/CMakeFiles --progress-num= "Built target _run_tests_canopen_master_gtest_canopen_master-test_parser"

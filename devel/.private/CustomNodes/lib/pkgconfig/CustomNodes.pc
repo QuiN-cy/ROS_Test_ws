@@ -1,0 +1,8 @@
+prefix=/home/student/test_ws/devel/.private/CustomNodes
+
+Name: CustomNodes
+Description: Description of CustomNodes
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

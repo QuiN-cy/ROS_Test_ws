@@ -1,0 +1,4 @@
+Symlinking /home/student/test_ws/devel/lib/libRobotiqHandPlugin.so
+Symlinking /home/student/test_ws/devel/lib/pkgconfig/robotiq_3f_gripper_articulated_gazebo_plugins.pc
+Symlinking /home/student/test_ws/devel/share/robotiq_3f_gripper_articulated_gazebo_plugins/cmake/robotiq_3f_gripper_articulated_gazebo_pluginsConfig-version.cmake
+Symlinking /home/student/test_ws/devel/share/robotiq_3f_gripper_articulated_gazebo_plugins/cmake/robotiq_3f_gripper_articulated_gazebo_pluginsConfig.cmake

@@ -1,0 +1,3 @@
+Symlinking /home/student/test_ws/devel/lib/pkgconfig/binpicking_moveit_config.pc
+Symlinking /home/student/test_ws/devel/share/binpicking_moveit_config/cmake/binpicking_moveit_configConfig.cmake
+Symlinking /home/student/test_ws/devel/share/binpicking_moveit_config/cmake/binpicking_moveit_configConfig-version.cmake

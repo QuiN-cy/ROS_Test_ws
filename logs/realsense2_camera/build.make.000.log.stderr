@@ -1,3 +1,24 @@
+WARNING: Package name "CustomNodes" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "CustomNodes" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+In file included from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_sensor.hpp:8:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/melodic/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/student/test_ws/src/ros_packages/realsense-ros/realsense2_camera/src/../include/realsense_node_factory.h:11[m[K,
+                 from [01m[K/home/student/test_ws/src/ros_packages/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp:4[m[K:
+[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:1020:58:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:1042:58:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:1064:58:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
 In file included from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_sensor.hpp:8:0[m[K,
                  from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_device.hpp:8[m[K,
                  from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
@@ -27,25 +48,6 @@ In file included from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_sens
                  from [01m[K/home/student/test_ws/src/ros_packages/realsense-ros/realsense2_camera/src/../include/../include/realsense_node_factory.h:11[m[K,
                  from [01m[K/home/student/test_ws/src/ros_packages/realsense-ros/realsense2_camera/src/../include/base_realsense_node.h:6[m[K,
                  from [01m[K/home/student/test_ws/src/ros_packages/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:1[m[K:
-[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
-[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:1020:58:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
-                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
-                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
-[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
-[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:1042:58:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
-                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
-                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
-[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
-[01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:1064:58:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
-                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
-                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
-In file included from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_sensor.hpp:8:0[m[K,
-                 from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_device.hpp:8[m[K,
-                 from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
-                 from [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_context.hpp:8[m[K,
-                 from [01m[K/opt/ros/melodic/include/librealsense2/rs.hpp:9[m[K,
-                 from [01m[K/home/student/test_ws/src/ros_packages/realsense-ros/realsense2_camera/src/../include/realsense_node_factory.h:11[m[K,
-                 from [01m[K/home/student/test_ws/src/ros_packages/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp:4[m[K:
 [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
 [01m[K/opt/ros/melodic/include/librealsense2/hpp/rs_frame.hpp:1020:58:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
                          [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;

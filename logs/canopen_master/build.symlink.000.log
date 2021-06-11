@@ -1,0 +1,6 @@
+Symlinking /home/student/test_ws/devel/lib/libcanopen_master_plugin.so
+Symlinking /home/student/test_ws/devel/lib/libcanopen_master.so
+Symlinking /home/student/test_ws/devel/lib/pkgconfig/canopen_master.pc
+Symlinking /home/student/test_ws/devel/lib/canopen_master/canopen_bcm_sync
+Symlinking /home/student/test_ws/devel/share/canopen_master/cmake/canopen_masterConfig.cmake
+Symlinking /home/student/test_ws/devel/share/canopen_master/cmake/canopen_masterConfig-version.cmake

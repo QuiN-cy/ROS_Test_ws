@@ -1,0 +1,7 @@
+Symlinking /home/student/test_ws/devel/lib/libsocketcan_interface_plugin.so
+Symlinking /home/student/test_ws/devel/lib/libsocketcan_interface_string.so
+Symlinking /home/student/test_ws/devel/lib/socketcan_interface/socketcan_dump
+Symlinking /home/student/test_ws/devel/lib/socketcan_interface/socketcan_bcm
+Symlinking /home/student/test_ws/devel/lib/pkgconfig/socketcan_interface.pc
+Symlinking /home/student/test_ws/devel/share/socketcan_interface/cmake/socketcan_interfaceConfig-version.cmake
+Symlinking /home/student/test_ws/devel/share/socketcan_interface/cmake/socketcan_interfaceConfig.cmake
